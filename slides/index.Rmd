@@ -111,6 +111,38 @@ Oder jemals war. Und so hat meine Vorbereitung auf diesen Vortrag dazu geführt,
 Und so werde ich versuchen anhand von X Lessons etwas von meinen Erfahrungen zu teilen
 
 ---
+class: left
+background-image: url(img/lars_schoebitz_profile_photo.jpg)
+background-position: right
+background-size: contain
+
+## Lars Schöbitz 
+
+- Umweltingenieur
+- Toiletten-Forscher
+- Berater
+- Data Scientist
+- R Studio Instructor
+- CV: [lse.de/cv](https://www.lse.de/cv/)
+- Twitter: [https://twitter.com/larnsce](https://twitter.com/larnsce)
+
+
+???
+Kurz zu mir: Mein Name ist Lars Schöbitz. 
+
+Ich habe mal Umwelt- Hygiene und Sicherheitstechnik an einer Fachhochschule in Deutschland studiert und bin über Umwege im jahr 2012 in der Schweiz gelandet.
+
+Hier habe ich dann 5 Jahre lang am Wasserforschungsinstitut Eawag gearbeitet und mich vor Allem mit der Sanitärversorgung im globalen Süden beschäftigt. Die Fäkalschlammbehandlung aus Toilettensystemen die nicht an die Kanalisation angeschlossen sind war mein Spezialgebiet.
+
+Eine Karriere im akademischen Bereich hat mich weniger gereizt und so habe ich vor etwa 5 Jahren begonnen als Berater zu arbeiten anstatt zu doktorieren. 
+
+Als Berater habe ich vor Allem Kompetenzen im Data Science Bereich ausgebaut und werde seitdem in diesem Bereich häufig konsultiert. 
+
+Zuletzt habe ich für einige Monate ein Praktikum im Statistischen Amt des Kantons Zürich gemacht, wo ich lernen konnte was es bedeutet eine datengetriebene Verwaltung zu etablieren. 
+
+Aber bevor ich euch nun mit den Details meines Lebenslaufs langweile, steige ich ein in ein paar Lessons die ich in diesen Jahren gelernt habe.
+
+---
 class: inverse, middle
 
 # .large[Lesson #1]  
@@ -129,7 +161,7 @@ background-size: contain
 - Ist nicht verallgemeinerbar
 
 ???
-Es ist schwer Entwicklungszusammenarbeit zu lernen. Bestimmte Prinzipien sind wichtig und eine Sensiblilisierung für die Zusammenarbeit in diesem Kontext ist wichtig, aber es ist langjährige Erfahrung welche nachhaltige Entwicklungszusammenarbeit ermöglicht.
+Es ist schwer Entwicklungszusammenarbeit zu lernen. Eine Sensiblilisierung für die Zusammenarbeit in diesem Kontext ist wichtig, aber es ist langjährige Erfahrung welche nachhaltige Entwicklungszusammenarbeit ermöglicht.
 
 So ist vieles nicht verallgemeinerbar und muss für jedes Land neu gelernt werden. 
 
@@ -155,9 +187,11 @@ background-size: contain
 ???
 Ich habe Erfahrung in einer ganzen Reihe von Ländern gesammelt und was ich in einem Kontext gelernt habe war in den seltensten Fällen auf einen anderen übertragbar. 
 
-Eine meiner wichtigsten Erfahrung war sehr wahrscheinlich sogar meine Arbeit für eine US-amerikanische Firma, denn in dem Sektor in dem ich arbeite werden viele Projekte mit Geldern aus den USA finanziert und es hat mir die Augen dazu geöffnet, dass Entwicklungsarbeit in den USA anders verstanden wird als in Deutschland.
+Eine meiner wichtigsten Erfahrung war sehr wahrscheinlich sogar meine Arbeit für eine US-amerikanische Firma.
 
-So gilt es immer wieder einen neuen Kontext kennenzulernen und sich mit den Normen und Kulturen auseinander zu setzen.
+Denn viele Projekte werden mit Geldern aus den USA finanziert und die Zusammenarbeit hat mir geholfen zu verstehen, dass Entwicklungszusammenarbeit nicht überall gleich praktiziert wird. 
+
+Und auch wenn Erfahrung hilft, ist es wichtig sich in jedem neuen Kontext mit den Normen, Kulturen und Bedürfnissen auseinander zu setzen.
 
 ---
 class: inverse, middle
@@ -207,9 +241,7 @@ background-size: contain
 
 Und woran liegt es, dass lokal keine Ersatzschläuche zur Verfügung stehen? Daran, dass die Trucks importiert werden und es in der Regel schwierig ist an geeignete Ersatzteile zu kommen.
 
-Die Kosten spielen dabei immer eine ganz wichtige Rolle was vermutlich auch der Grund dafür ist, dass es lokal keine Produktion von Ersatzschläuchen für eben diese Trucks gibt. 
-
-Denn die Gewinnspanne bei diesen Aktivitäten in der Regel sehr niedrig.
+Die Kosten spielen dabei immer eine ganz wichtige Rolle und sind vermutlich auch der Grund dafür, dass es lokal keine Produktion von Ersatzschläuchen für eben diese Trucks gibt. 
 
 ---
 class: left
@@ -222,15 +254,18 @@ background-size: contain
 - Ersatzteile
 - Elektrizität
 - Labormittel
+- Zeit
 - etc.
 
 ???
 
 Neben Ersatzteilen spielen eine ganze Reihe anderer Ressourcen eine bedeutende Rolle. 
 
-Wenn Elektrizität nicht 24 Stunden and 7 Tagen die Woche zur Verfügung steht, dann gibt es eine ganze Reihe an Technologien welche nicht passend sind für den Kontext.
+Wenn Elektrizität nicht 24 Stunden an 7 Tagen die Woche zur Verfügung steht, dann gibt es eine ganze Reihe an Technologien welche nicht passend sind für den Kontext.
 
-Wenn Labormittel für die Analyse von Wasserproben nicht zur Verfügung stehen oder mit siginifikanten Kosten verbunden sind, dann wird es schwierig zu überwachen ob wichtige Grenzwerte eingehalten werden.
+Wenn Labormittel für die Analyse von Wasserproben nicht zur Verfügung stehen, dann wird es schwierig zu überwachen ob wichtige Grenzwerte eingehalten werden.
+
+Und auch die Ressource Zeit spielt eine sehr wichtige Rolle. Wenn du jeden Morgen und Nachmittag mehrere Stunden im Verkehr fest steckst, dann bleibt deutlich weniger Zeit um produktive Arbeit zu leisten.
 
 
 ---
@@ -258,9 +293,9 @@ background-size: contain
 
 ???
 
-Local ownership ist ein Stichwort, welches immer wieder fällt im Zusammenhang der Entwicklungszusammenarbeit. Es wird in einem Zusammenhang genutzt, in dem es darum geht lokale Partner zu einem Grad zu involvieren welches ein Gefühl von Verantwortung hervorruft.
+Local ownership ist ein Stichwort, welches immer wieder fällt im Zusammenhang der Entwicklungszusammenarbeit. Es geht bei diesem Stichwort darum mit Projektpartnern in einer Weise zu arbeiten, die ein Gefühl von Verantwortung für das Projekt hervorruft.
 
-Aber, ich möchte local ownership noch etwas weiter treiben und denke wir sollten Fragen stellen wie:
+Aber, ich möchte local ownership hier noch etwas weiter treiben und denke wir sollten Fragen stellen wie:
 
 ---
 class: inverse, middle
@@ -270,7 +305,7 @@ class: inverse, middle
 
 ???
 
-Ihr seid vielleicht überrascht davon, aber der Grossteil an Infrastrutkur Projekten in der internationalen Entwicklungszusammenarbeit werden von Beratern geplant und umgesetzt welche nicht vor Ort mit lokalem Wissen planen.
+Ihr seid vielleicht überrascht davon, aber der Grossteil an Infrastrutkur Projekten in der internationalen Entwicklungszusammenarbeit wird von Beratern geplant und umgesetzt welche nicht vor Ort mit lokalem Wissen planen.
 
 So habe ich mal an einem Auftrag gearbeitet in welchem eine Abwasserbehandlungsanlage für eine Stadt in Haiti von einem spanischen Unternehmen geplant wurde. Das Problem dabei liegt darin, dass internationale Unternehmen immer wieder versuchen Konzepte aus dem eigenen Land auf ein anderes zu übertragen. Und das funktioniert einfach nicht.
 
@@ -284,17 +319,18 @@ background-size: contain
 ## Lesson #4 - Context matters
 
 - Kontext ist wichtig!
-- Wissen
-- Kapazitäten
+- Bedürfnisse
 - Kultur
 - Normen
 
 ???
 Deshalb: Context matters
 
-Keine bestehende Technologie, keine Software, und keine wissenschaftliche Methode, welche in einem  Kontext erfolgreich angewendet wird, kann auf ein Land übertragen werden welches zu den sich entwickelnden Regionen zählt
+Keine bestehende Technologie, keine Software, und keine wissenschaftliche Methode, welche in einem  Kontext erfolgreich angewendet wird, kann ohne Weiteres auf ein Land übertragen werden welches zu den sich entwickelnden Regionen zählt.
 
-Deshalb bin ich überzeugt, dass nur Projekte welche von lokalen Unternehmen geplant und umgesetzt werden auch erfolgreich sein können. Und dies gilt sowohl für grosse Infrastruktur als auch für die Forschung.
+Deshalb bin ich überzeugt, dass nur Projekte welche von lokalen Unternehmen geplant und umgesetzt werden auch erfolgreich sein können. Dies gilt vor Allem für Projekte die sich sozialen Problemen annehmen, aber auch für Infrastruktur, Technologie und Forschung.
+
+
 
 ---
 class: inverse, middle
@@ -314,6 +350,7 @@ background-size: contain
 - Schlüsselkompetenzen des 21. Jahrhunderts
 - Data Literacy
 - Statistical Literacy
+- Reproduzierbarkeit & Transparenz
 
 ???
 
@@ -321,7 +358,9 @@ Der beste Ansatz um nachaltig zu arbeiten ist in die Bildung oder auch Ausbildun
 
 Es ist an der Zeit an Kernkompetenzen zu arbeiten welche relevant um Entscheidungen treffen zu können und Wissen zu generieren.
 
-Ich selbst als Umweltingenieur habe in meiner gesamten Schul und Uni Laufbahn lediglich einen Kurs absolviert, welcher einen Fokus auf die elektronische Datenverarbeitung gelegt hat.
+Ich selbst als Umweltingenieur habe in meiner gesamten Schul und Uni Laufbahn lediglich einen Kurs absolviert, welcher einen Fokus auf die elektronische Datenverarbeitung gelegt hat. 
+
+So wie die meisten, habe ich mir Daten Analyse mit Excel Schritt für Schritt selbst beigebracht und dabei keine Methoden entwickelt welche es erlauben reproduzierbar zu arbeiten.
 
 Jedoch hatte ich das Glück mich in dem Bereich weiterentwickeln zu können. Und das führt zu dem was ich heute mache.
 
@@ -336,9 +375,6 @@ Data Science mit R.
 
 R ist eine Programmiersprache und einige von Euch kennen es vermutlich.
 
-
-
-
 ---
 class: left
 background-image: url(img/laptop.jpg)
@@ -352,36 +388,33 @@ background-size: contain
 - kostenfrei
 - gewinnt an Beliebtheit
 
+
 ```{r, echo=FALSE}
 
 library(gapminder)
 
 ```
 
-
-
 ```{r, eval=FALSE}
-
 gapminder %>% 
-  select(country, continent, lifeExp) %>% 
   filter(country == "Benin") %>% 
-  filter(year == 1972)
-
+  filter(year == 1972) %>% 
+  select(country, year, lifeExp) 
 
 ```
 
 ```{r, eval=TRUE, echo=FALSE}
 
 gapminder %>% 
-  select(country, continent, lifeExp) %>% 
+  select(country, year, lifeExp) %>% 
   filter(country == "Benin") %>% 
   filter(year == 1972) %>% 
   knitr::kable()
 
 ```
 
-
 ]
+
 
 ???
 Was R besonders ausmacht ist die Tatsache, dass es von Beginn an ein open source Projekt war, was bedeutet, dass jeglicher Code in einer Weise veröffentlicht wird welche es anderen erlaubt diesen zu erweitern. 
@@ -390,10 +423,12 @@ Als open source Software ist es auch kostenfrei, was es deutlich zugänglicher m
 
 In den letzten Jahren hat R sehr an Beliebtheit gewonnen, was zum Teil daran liegt, dass einige Entwickler sich Gedanken darum gemacht haben wie wir Code lesen können und nicht nur schreiben.
 
+Wenn ihr euch den Code hier anschaut, dann lässt sich dieser folgendermassen lesen:
 
-
-
-
+- Nehme den Gapminder Datensatz 
+- Filter die Spalte country nach Benin
+- Filter die Spalte year nach 1972
+- Selektiere die Spalten country, year und life Expectancy
 
 
 ---
@@ -405,91 +440,95 @@ background-size: contain
 .footnote[Artwork by [@allison_horst](https://www.allisonhorst.com/)]
 
 ???
-Was R wirklich ausmacht, ist die Community. Wir werden uns im Laufe des Kurses
-noch etwas mehr damit beschäftigen, aber es ist wirklich sehr einzigartig in der
-Tech Welt, wie einladend R Community ist und was alles bewegt wird um mehr 
-Diversität in den Sektor zu bringen und Diskriminieung zu bekämpfen. 
 
+Aber was R wirklich ausmacht, ist die globale Community. Es ist wirklich sehr einzigartig in der Tech Welt, wie einladend die R Community ist und was alles bewegt wird um mehr Diversität in den Sektor zu bringen und Diskriminierung zu bekämpfen. 
 
 ---
 background-image: url(img/welcome_to_rstats_twitter.png)
 background-size: contain
 background-position: right
 
-## Community
+## R Community
 
 - Twitter: #rstats
 - Online learning community [@R4DScommunity](https://twitter.com/R4DScommunity)
 - Minority R Users [@miR_community](https://twitter.com/miR_community)
 - We are [@R-Ladies](https://twitter.com/WeAreRLadies)
-- Zurich R User Group [@ZurichRUsers](https://twitter.com/ZurichRUsers)
 - [RStudio Community](https://community.rstudio.com/)
 
 .footnote[Artwork by [@allison_horst](https://www.allisonhorst.com/)]
 
 ???
-Noch nicht auf Twitter? Jetzt wäre ein guter Zeitpunkt. Der Hashtag rstats ist
-sehr beliebt. Nutzt diesen und teilt eure Fragen und Erfahrungen. Ich garantiere
-es wird jemand antworten. 
 
-Dann gibt verschiedene Communities, einige organiseren sich auf Slack, so wie
-die R for Data Science online learning community oder Minority R Users, eine 
-Community die dazu dient unterrepräsentierte Minderheiten zusammenzubringen
-und zu unterstützen. Teilnehmen und unterstützen können Alle.
+Hier nur ein paar Beispiele von Communities in welchen Menschen aus jeglichen professionellen Sektoren zusammenkommen um gemeinsam an etwas zu arbeiten. 
 
-Die R-Ladies sind zu einer weltweiten Bewegung herangewachsen und auch hier in 
-Züri gibt es eine R User Group.
+So gibt es eine sehr freundliche online learning community, welche sich auf Slack organisier und durch das beliebt Buch "R for Data Science" von Hadley Wickham arbeitet. 
 
-Zuletzt noch die RStudio Community, ein Forum welches auch für Fragen genutzt 
-werden kann.
+Die Minority R Users Community dient dazu unterrepräsentierte Minderheiten zusammenzubringen
+und zu unterstützen.
+
+Die R-Ladies sind zu einer weltweiten Bewegung herangewachsen, welche sich durch 100 von lokalen Gruppen organiseren und gegenseitig helfen. 
+
+Zuletzt noch die RStudio Community, ein freundliches und offenes Forum für jegliche Fragen genutzt  werden kann.
+
+---
+
+# .large[Aber warum ist das interessant?]  
 
 
 ---
-class: left
-background-image: url(img/lars_schoebitz_profile_photo.jpg)
-background-position: right
+background-image: url(img/open.jpg)
 background-size: contain
+background-position: right
 
-## Hallo Zusammen `r emo::ji("wave")`
+# Open Government (Open EZ)
 
-- Umweltingenieur
-- Toiletten-Forscher
-- Datenwissenschaftler
-- CV: [lse.de/cv](https://www.lse.de/cv/)
-- Twitter: [https://twitter.com/larnsce](https://twitter.com/larnsce)
+- Gesammelte Daten, welche nicht schützenswert sind werden öffentlich publiziert
+    - Open (Government) Data
+- Es braucht eine Fachstelle für eine solche Arbeit:
+    - **identifiziert** nicht schützenswerte Daten
+    - **beschreibt** Daten mit Metadaten
+    - **unterstützt **Bereitstellung in maschinenlesbaren Formaten
+    - **unterstützt** regelmässige Aktualisierung
+    - **liefert** Analytics und Feedback
+- Dies fördert
+    - **Vereinfachung **der Verwaltungstätigkeit,
+    - **Entlastung** der Wirtschaft und
+    - sorgt für mehr **Transparenz** zugunsten der Zivilgesellschaft»
 
+
+
+.footnote[Photo by: [James Sutton](https://unsplash.com/photos/mcjvw2570iA)]
 
 ???
-Kurz zu mir: Mein Name ist Lars Schöbitz. Ich freue mich wenn ihr mich Lars nennt und hoffe es geht okay, dass ich euch Dutze.
 
-Ich habe mal Umwelt- Hygiene und Sicherheitstechnik an einer Fachhochschule in Deutschland studiert und bin über Umwege im jahr 2012 in der Schweiz gelandet.
+Arbeit welche aus öffentlichen Mitteln finanziert wird, gehört der Öffentlichkeit.
 
-Hier habe ich dann 5 Jahre lang am Wasserforschungsinstitut Eawag gearbeitet und mich vor Allem mit der Sanitärversorgung im globalen Süden beschäftigt. Die Fäkalschlammbehandlung aus Toilettensystemen die nicht an die Kanalisation angeschlossen sind war mein Spezialgebiet.
-
-Neuerdings darf ich mich auch Datenwissenschaftler nennen, da ich ein Praktikum als Data Scientist im statistischen Amt gemacht habe. 
-
-Ich nutze R seit etwa vier Jahren. Mein Einstieg war ein 2-tägiger Workshop aber der Grossteil meiner Kompetenzen ist selbständig erworben. 
-
+Informationen gehen verloren und Wissen kann nicht weitergegeben werden, da Daten welche als Teil von Projekten kreiert und genutzt werden nicht lokal verwaltet und genutzt werden.
 
 ---
-class: left
-background-image: url(img/globe.jpg)
-background-position: right
-background-size: contain
+## Interesse mehr darüber zu lernen?
 
-## Relevante Arbeitserfahrung
+### Data Science for WASH - An opportunity for the sector
 
-.footnote[Photo by: [Subhash Nusetti](https://unsplash.com/photos/9tmrYLRL7Ww)]
+- Workshop am Colorado WASH Symposium 2021
+- kostenfrei
 
+.huge[kutt.it/cowash2021]
 
 ---
 # Danke! `r emo::ji("sunflower")` 
 
 ***
 
-For stopping by.
+Für die Aufmerksamkeit!
 
-For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer), which where used to create these slides.
+Für die R packages [{xaringan}](https://github.com/yihui/xaringan) und [{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer) mit welchen die Folien geschrieben wurden.
+
+Der Quellcode für die Folien ist auf GitHub verfügbar: 
+
+Eine PDF Version der Folien kann hier heruntergeladen werden: https://github.com/rstatsZH/website/raw/master/slides/e1_d01-willkommen/e1_d01-willkommen.pdf
+
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).
 

@@ -576,7 +576,7 @@ Für die R packages [{xaringan}](https://github.com/yihui/xaringan) und [{xaring
 
 Der Quellcode für die Folien ist auf GitHub verfügbar: https://github.com/larnsce/uni-freiburg-berufsbild-ez
 
-Eine PDF Version der Folien kann hier heruntergeladen werden: 
+Eine PDF Version der Folien kann hier heruntergeladen werden: https://github.com/larnsce/uni-freiburg-berufsbild-ez/raw/main/slides/berufsbild-ez-lars-schoebitz.pdf
 
 ---
 class: center
